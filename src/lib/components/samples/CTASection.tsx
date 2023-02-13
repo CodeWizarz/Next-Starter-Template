@@ -1,7 +1,7 @@
 import { Box, Button, Flex, Image, Link } from '@chakra-ui/react';
 import { AiFillGithub } from 'react-icons/ai';
 
-const repoLink = 'https://github.com/sozonome/nextarter-chakra';
+const repoLink = 'https://github.com/CodeWizarz/Saas-Template';
 
 const CTASection = () => {
   return (
@@ -12,7 +12,7 @@ const CTASection = () => {
             aria-label="Deploy to Vercel"
             isExternal
             rel="noopener noreferrer"
-            href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsozonome%2Fnextarter-chakra"
+            href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FCodeWizarz%2FSaas-Template"
           >
             <Image
               src="https://vercel.com/button"
@@ -26,7 +26,7 @@ const CTASection = () => {
             aria-label="Deploy to Netlify"
             isExternal
             rel="noopener noreferrer"
-            href="https://app.netlify.com/start/deploy?repository=https://github.com/sozonome/nextarter-chakra"
+            href="https://app.netlify.com/start/deploy?repository=https://github.com/CodeWizarz/Saas-Template"
           >
             <Image
               src="https://www.netlify.com/img/deploy/button.svg"
@@ -57,7 +57,7 @@ const CTASection = () => {
       <Flex justifyContent="center" alignItems="center" gap={2}>
         <Button
           as="a"
-          href="https://github.com/sozonome/nextarter-chakra/generate"
+          href="https://github.com/CodeWizarz/Saas-Template/generate"
           target="_blank"
           size="sm"
         >
