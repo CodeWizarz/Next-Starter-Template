@@ -37,7 +37,7 @@
 1. You can either click `Use this template` button on this repository and clone the repo or directly from your terminal:
 
 ```bash
-npx degit CodeWizarz/Saas-Template <YOUR_APP_NAME>
+npx degit CodeWizarz/Next-Starter-Template <YOUR_APP_NAME>
 ```
 
 2. After cloning the project, run this command: `yarn` or `yarn install`
